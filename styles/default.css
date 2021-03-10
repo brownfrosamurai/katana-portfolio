@@ -357,6 +357,7 @@ ul {
   color: #fff;
   background-color: var(--buttonColor);
   border: none;
+  cursor: pointer;
 
 }
 

@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/styles/default.css">
+  <link rel="stylesheet" href="styles/default.css">
 
   <link rel="stylesheet" href="" id="theme-style" >
 
@@ -35,7 +35,7 @@
         </div>
 
         <div class="left_column">
-          <img id="profile_pic" src="/app/img/femi.jpeg" alt="">
+          <img id="profile_pic" src="img/femi.jpeg" alt="">
           <h5 style="text-align: center; line-height: 0;">Personalised theme</h5>
 
           <div id="theme_options_wrapper">
@@ -114,7 +114,7 @@
         <div>
           <div class="post">
             <a target="_blank" href="https://app.netlify.com/sites/izzybank/overview">
-            <img class="thumbnail" src="/app/img/easybank.png" alt="">
+            <img class="thumbnail" src="img/easybank.png" alt="">
             <div class="post_preview">
               <h6 class="post_title">EASYBANK</h6>
               <p class="post_intro">This is a sentence Lorem ipsum dolor sit, 
@@ -127,7 +127,7 @@
           <div>
             <div class="post">
               <a target="_blank" href="https://edukoya.com/">
-              <img class="thumbnail" src="/app/img/eukoya.png" alt="">
+              <img class="thumbnail" src="img/eukoya.png" alt="">
               <div class="post_preview">
                 <h6 class="post_title">EDUKOYA</h6>
                 <p class="post_intro">Edukoya believes that technology can have a significant positive impact on educational equity. Starting with exam preparation,
@@ -141,7 +141,7 @@
           <div>
           <div class="post">
             <a target="_blank" href="https://ripoti.africa/site/index">
-            <img class="thumbnail" src="/app/img/ripoti.png" alt="">
+            <img class="thumbnail" src="img/ripoti.png" alt="">
             <div class="post_preview">
               
               <h6 class="post_title">RIPOTI</h6>
@@ -161,7 +161,7 @@
   <section class="s2">
     <div class="main-container">
       <h3 style="text-align: center;">Get in Touch</h3>
-      <form action="" id="contact-form">
+      <form netlify id="contact-form">
         <label>Name:</label>
         <input type="text" name="name" class="input_field">
 
@@ -169,13 +169,12 @@
         <input type="text" name="subject" class="input_field">
 
         <label>Email:</label>
-        <input type="text" name="email" class="input_field">
+        <input type="email" name="email" class="input_field">
 
         <label>Message:</label>
         <textarea name="message" class="input_field" ></textarea>
 
-        <input type="submit" value="Send" id="submit-btn">
-
+        <button type="submit" id="submit-btn">Send</button>
       </form>  
 
       <div class="social_links center-text">

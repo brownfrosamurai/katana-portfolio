@@ -24,16 +24,16 @@ for(let themeDot of themeDots) {
 
 function setTheme(mode) {
   if(mode == 'light') {
-    document.getElementById('theme-style').href = '/styles/default.css'
+    document.getElementById('theme-style').href = 'styles/default.css'
   }
   if(mode == 'blue') {
-    document.getElementById('theme-style').href = '/styles/blue.css'
+    document.getElementById('theme-style').href = 'styles/blue.css'
   }
   if(mode == 'green') {
-    document.getElementById('theme-style').href = '/styles/green.css'
+    document.getElementById('theme-style').href = 'styles/green.css'
   }
   if(mode == 'purple') {
-    document.getElementById('theme-style').href = '/styles/purple.css'
+    document.getElementById('theme-style').href = 'styles/purple.css'
   }
 
   localStorage.setItem('theme', mode);
