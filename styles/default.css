@@ -78,9 +78,9 @@ ul {
 .main-container {
   max-width: 1200px;
   margin: 0 auto;
-  min-height: 80vh;
+  min-height: 90vh;
   padding: 1rem;
-  padding-top: 4rem;
+  /* padding-top: 4rem; */
 }
 
 .greeting_wrapper {
