@@ -140,7 +140,7 @@ ul {
   display: flex;
   width: 100px;
   padding: 10px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .social_links a {
@@ -155,7 +155,7 @@ ul {
 
 .center-text {
   margin: 0 auto; 
-  width: 300px;
+  width: 200px;
 }
 
 .left_column {
